@@ -1,6 +1,7 @@
-import Nav from "./components/Nav/Nav";
-import Content from "./components/Content/Content";
-import Footer from "./components/Footer/Footer";
+import Nav from "./components/views/Nav/Nav";
+import Home from "./components/pages/Home/Home";
+import Footer from "./components/views/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
     <>
       <Nav />
       <Container>
-        <Content />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
         <Footer />
       </Container>
     </>

@@ -5,7 +5,7 @@ function Nav() {
     <Navbar bg="primary" data-bs-theme="dark">
       <Container>
         <Navbar.Brand>Waiter.app </Navbar.Brand>
-        <Navbar.Brand href="#home">Home</Navbar.Brand>
+        <Navbar.Brand href="/">Home</Navbar.Brand>
       </Container>
     </Navbar>
   );
