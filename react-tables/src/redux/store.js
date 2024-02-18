@@ -8,6 +8,7 @@ const subreducers = {
 }
 
 const reducer = combineReducers(subreducers);
+
 const store = createStore(
   reducer,
   initialState,
@@ -19,3 +20,5 @@ const store = createStore(
 );
 
 export default store;
+
+

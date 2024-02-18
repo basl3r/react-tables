@@ -1,11 +1,11 @@
 {
   "tables": [
     {
-      "id": "1",
-      "status": "free",
+      "status": "busy",
       "peopleAmount": 0,
-      "maxPeopleAmount": 2,
-      "bill": 0
+      "maxPeopleAmount": 4,
+      "bill": 0,
+      "id": "1"
     },
     {
       "id": "2",
