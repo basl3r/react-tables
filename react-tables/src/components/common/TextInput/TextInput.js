@@ -1,5 +1,5 @@
 const TextInput = (props) => {
-  if (typeof props.value === 'string') {
+  if (props.options) {
     return (
       <select value={props.value} onChange={props.onChange}>
         {props.options.map(option => (
@@ -11,5 +11,4 @@ const TextInput = (props) => {
     return <input value={props.value} onChange={props.onChange} type="text" />;
   }
 };
-
 export default TextInput;

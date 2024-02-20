@@ -8,11 +8,9 @@ import shortid from 'shortid';
 function TableCard() {
 
   const tables = useSelector(getAllTables);
-  console.log('tables', tables);
 
   return(
     <div>
-
       {tables.map(table => 
       <Card key={shortid()} className="mb-3">
         <Card.Body>
@@ -32,7 +30,6 @@ function TableCard() {
         </Card.Body>
       </Card>
       )}
-
     </div>
   );
 };
